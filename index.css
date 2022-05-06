@@ -1,0 +1,33 @@
+body{
+    background-image: url("./img/matrix-code.gif");
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.boxGeral{
+    width:100%;
+}
+.container{
+    margin: 0 auto;
+    background-color: #ccc;
+    width:450px;
+    padding:10px;
+}
+.container h1{
+    text-align: center;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container form label{
+    margin: 15px 0 5px 0;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}

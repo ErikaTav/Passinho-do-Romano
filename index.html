@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+
+    <section class="boxGeral">
+        <div class="container">
+            <h1>Codificador</h1>
+            <form action="" name="">
+                <label for="">Selecione o tipo de decodificação</label>
+                <select id="idSelect">
+                    <option value="base64">Base64</option>
+                    <option value="cifra">Cifra de Cesar</option>
+                </select>
+                <label for="mensagem">Escreva aqui sua mensagem</label>
+                <textarea id="mensagem1" cols="30" rows="10"></textarea>
+                <div id="desloc">
+                    <label for="valorDeslo">Digite o valor do deslocamento</label>
+                    <input type="number" min="0" max="26" id="valorDeslo">
+                </div>
+                <div class="radio">
+                    <input type="radio" name="coisa" id="cod" value="cod1">Codificar
+                    <input type="radio" name="coisa" id="decod" value="decod1">Decodificar
+                </div>
+                <div >
+                    <button id="botao" >Retorna</button>
+                </div>
+                 <label for="mensagem2"></label>
+                <textarea name="mensagem2" id="mensagem2" cols="30" rows="10"></textarea>
+                <div id="saida">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
